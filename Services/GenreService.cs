@@ -1,12 +1,12 @@
 using AutoMapper;
 using MusicAPI.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+
 
 public class GenresService : IGenresService
 {
-    private WebMusicContext _context;
-    private IMapper _mapper;
+    private readonly WebMusicContext _context;
+    private readonly IMapper _mapper;
 
     public GenresService(WebMusicContext context, IMapper mapper)
     {
