@@ -1,0 +1,14 @@
+Remove-migration
+add-migration
+update-database
+Use virtual to lazy loading
+Declare property type is table relationship: ef will auto generate foreign key
+one - one:  
+one - many: 
+many - many: 
+
+
+Create interface per table to crud
+Implement interface
+Controller:
+
